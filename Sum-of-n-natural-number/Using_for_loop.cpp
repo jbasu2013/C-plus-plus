@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-   Date : 12th june 2021 */
+   Date : 12th june, 2021 */
 
 #include<iostream>
 
