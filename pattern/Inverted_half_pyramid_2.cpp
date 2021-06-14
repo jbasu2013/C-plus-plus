@@ -3,6 +3,7 @@
 
 
 // In inverted half pyramid pattern the row and col number should be same. By default it'll take row number
+
 #include<iostream>
 
 using namespace std;
