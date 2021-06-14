@@ -1,5 +1,5 @@
 /* Author : Chaitaly Kundu
-   Date : 12th june 2021 */
+   Date : 14th june 2021 */
 
 #include<iostream>
 
@@ -20,3 +20,13 @@ int main(){
     }
 
 }
+
+/*  O/P:
+Enter the no. of row and column: 3
+4
+* * * *
+* * * *
+* * * *
+
+
+*/
