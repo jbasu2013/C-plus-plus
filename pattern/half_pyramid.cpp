@@ -12,12 +12,9 @@ int main(){
     cin >> row >> col ;
     for(int i=1;i<=row;i++)
 {
-    for(int j=1;j<=col;j++)
+    for(int j=1;j<=i;j++)
     {
-        if(j <= col-i)
-            cout << "  ";
-        else
-            cout << "* ";
+        cout << "* ";
     }
     cout << endl ;
 }
@@ -26,13 +23,12 @@ int main(){
 
 /*  O/P:
 
-Enter the no. of row and column: 5
-5
-        *
-      * *
-    * * *
-  * * * *
-* * * * *
+Enter the no. of row and column: 4
+4
+*
+* *
+* * *
+* * * *
 
 
 */
