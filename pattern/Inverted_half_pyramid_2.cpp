@@ -12,9 +12,9 @@ int main(){
     cout << "Enter the no. of row and column: ";
     cin >> row >> col ;
 
-    for(int i=1;i<=row;i++)
+    for(int i=row;i>=1;i--)
     {
-        for(int j=row+1-i;j>=1;j--)
+        for(int j=1;j<=i;j++)
         {
             cout << "* ";
         }
@@ -32,6 +32,5 @@ Enter the no. of row and column: 5
 * * *
 * *
 *
-
 
 */
