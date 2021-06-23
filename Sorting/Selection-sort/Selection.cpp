@@ -17,7 +17,8 @@ void SelectionSort(int arr[], int n)
                 min = j;
             }
         }
-        swap(arr[i], arr[min]);
+        if(min!=i)
+            swap(arr[i], arr[min]);
     }
 }
 
