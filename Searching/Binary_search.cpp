@@ -5,12 +5,18 @@
 #include<iostream>
 using namespace std;
 
-int LinearSearch(int arr[], int n, int x)
+int BinarySearch(int arr[], int n, int x)
 {
-    for(int i=0;i<n;i++)
+    int l=0, r=n-1,mid;
+    while(l<=r)
     {
-        if(arr[i]==x)
-            return i;
+        mid = (l+r)/2;
+        if(x==arr[mid])
+            return mid;
+        if(x < arr[mid])
+            r = mid-1;
+        if(x > arr[mid])
+            l = mid+1;
     }
     return -1;
 }
@@ -31,7 +37,7 @@ int main(){
     cin >> x;
 
     int res;
-    res = LinearSearch(arr,n,x);
+    res = BinarySearch(arr,n,x);
     cout << res << endl;
 
     return 0;
