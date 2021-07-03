@@ -1,19 +1,11 @@
-#include<bits/stdc++.h>
+/* Author : Chaitaly Kundu
+   Date : 03-07-2021*/
+
+#include<iostream>
 using namespace std;
-int main()
-{
-    int t;
-    cin >> t;
 
-    while(t--)
-    {
-        char s;
-        cin >> s;
+int main(){
 
-        int n= s.length();
-        if(s[0]== "<" && s[1]== "/" && s[n-1]== ">")
-            cout << "Success" << endl;
-        else
-            cout << "Error" << endl;
-    }
+    
+    return 0;
 }

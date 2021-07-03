@@ -14,7 +14,7 @@ int main(){
         cout << "Address of a[" << i << "] is " << *p++ << endl;
     }
 
-    
+
     // Address
     for(int i=0;i<n;i++)
     {
