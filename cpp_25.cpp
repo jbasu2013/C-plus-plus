@@ -1,6 +1,9 @@
 /* Author : Chaitaly Kundu
    Date : 03-07-2021*/
 
+
+// Inline function
+
 #include<iostream>
 using namespace std;
 
