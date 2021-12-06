@@ -1,6 +1,6 @@
-#!/usr/bin/perl
+# #!/usr/bin/perl
 
-package HelloWorld;
+# package HelloWorld;
 
 use strict;
 use warnings;
